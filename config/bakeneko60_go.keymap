@@ -33,11 +33,11 @@
 
         custom_layer {
             bindings = <
-&kp ESC    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans           &trans  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &kp DEL
-&trans     &kp C_MUTE            &kp C_VOLUME_DOWN     &kp C_VOLUME_UP  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans             &trans                   &trans
-&trans     &kp LA(A)             &kp LA(S)             &kp F21          &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans                                      &trans
-&trans                           &trans                &trans           &trans  &trans  &trans  &trans  &trans  &mo 3   &mo 2       &trans             &kp PG_UP                &trans
-&kp GLOBE  &trans                                      &trans                           &trans                          &trans      &kp HOME           &kp PG_DN                &kp END
+&kp ESC  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans                                &trans  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &kp DEL
+&trans   &kp C_MUTE            &kp C_VOLUME_DOWN     &kp C_VOLUME_UP                       &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans             &trans                   &trans
+&trans   &kp LA(A)             &kp LA(S)             &kp F21                               &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans                                      &trans
+&trans                         &kp LC(Z)             &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &trans  &trans  &trans  &trans  &trans  &mo 3   &mo 2       &trans             &kp PG_UP                &trans
+&trans   &trans                                      &trans                                                &trans                          &trans      &kp HOME           &kp PG_DN                &kp END
             >;
         };
 
